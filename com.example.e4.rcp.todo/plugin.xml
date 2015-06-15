@@ -8,6 +8,10 @@
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
             name="to-do">
+         <property
+               name="appName"
+               value="to-do">
+         </property>
       </product>
    </extension>
 
