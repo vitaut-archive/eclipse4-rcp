@@ -9,7 +9,9 @@
               <menus xsi:type="menu:PopupMenu" xmi:id="_0wQVYBREEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.popupmenu.table">
                 <children xsi:type="menu:HandledMenuItem" xmi:id="_2zCsgBREEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.handledmenuitem.remove" label="Remove" command="_bNpxMBO9EeWPqYIxOQXqRA"/>
               </menus>
-              <toolbar xmi:id="_9ZC58BOxEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.toolbar.0"/>
+              <toolbar xmi:id="_9ZC58BOxEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.toolbar.0">
+                <children xsi:type="menu:DirectToolItem" xmi:id="_X_OdMBRIEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.directtoolitem.text" label="Text" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.handlers.TestHandler"/>
+              </toolbar>
             </children>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_yaldwBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.partsashcontainer.0">
@@ -41,6 +43,9 @@
     <trimBars xmi:id="_CZ9XMBRDEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.trimbar.top">
       <children xsi:type="menu:ToolBar" xmi:id="_FopgwBRDEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.toolbar.1">
         <children xsi:type="menu:HandledToolItem" xmi:id="_I8IDsBRDEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.handledtoolitem.save" label="Save" command="_VBRHcBO9EeWPqYIxOQXqRA"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ikf9UBRJEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.toolbar.2">
+        <children xsi:type="menu:ToolControl" xmi:id="_i6Z74BRJEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.toolcontrol.0" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.SearchToolItem"/>
       </children>
     </trimBars>
   </children>
