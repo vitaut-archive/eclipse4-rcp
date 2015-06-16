@@ -6,12 +6,19 @@
         <children xsi:type="basic:PartSashContainer" xmi:id="_sVypwBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.partsashcontainer.main" horizontal="true">
           <children xsi:type="basic:PartStack" xmi:id="_w_PhIBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.partstack.0">
             <children xsi:type="basic:Part" xmi:id="_73bLoBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.part.todooverview" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.parts.TodoOverviewPart" label="Overview" closeable="true">
+              <menus xsi:type="menu:PopupMenu" xmi:id="_0wQVYBREEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.popupmenu.table">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_2zCsgBREEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.handledmenuitem.remove" label="Remove" command="_bNpxMBO9EeWPqYIxOQXqRA"/>
+              </menus>
               <toolbar xmi:id="_9ZC58BOxEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.toolbar.0"/>
             </children>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_yaldwBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.partsashcontainer.0">
             <children xsi:type="basic:PartStack" xmi:id="_zDi7MBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.partstack.1">
-              <children xsi:type="basic:Part" xmi:id="_8OY6IBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.part.tododetails" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.parts.TodoDetailsPart" label="Details"/>
+              <children xsi:type="basic:Part" xmi:id="_8OY6IBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.part.tododetails" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.parts.TodoDetailsPart" label="Details">
+                <menus xmi:id="_tvDjgBREEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.menu.0">
+                  <tags>ViewMenu</tags>
+                </menus>
+              </children>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_zgbEcBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.partstack.2">
               <children xsi:type="basic:Part" xmi:id="_8j2MwBOwEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.part.playground" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.parts.PlaygroundPart" label="Playground"/>
@@ -31,6 +38,11 @@
         <children xsi:type="menu:HandledMenuItem" xmi:id="_-esngBO-EeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.handledmenuitem.remove" label="Remove" command="_bNpxMBO9EeWPqYIxOQXqRA"/>
       </children>
     </mainMenu>
+    <trimBars xmi:id="_CZ9XMBRDEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.trimbar.top">
+      <children xsi:type="menu:ToolBar" xmi:id="_FopgwBRDEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.toolbar.1">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_I8IDsBRDEeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.handledtoolitem.save" label="Save" command="_VBRHcBO9EeWPqYIxOQXqRA"/>
+      </children>
+    </trimBars>
   </children>
   <handlers xmi:id="__Us34BO9EeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.handler.saveAll" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.handlers.SaveAllHandler" command="_VBRHcBO9EeWPqYIxOQXqRA"/>
   <handlers xmi:id="_GYLhsBO-EeWPqYIxOQXqRA" elementId="com.example.e4.rcp.todo.handler.exit" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.handlers.ExitHandler" command="_YJmKUBO9EeWPqYIxOQXqRA"/>
